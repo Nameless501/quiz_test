@@ -38,6 +38,10 @@
   transform: translateY(-50%);
 }
 
+.select__summary::-webkit-details-marker {
+  display:none;
+}
+
 .select[open] .select__summary::after {
   transform: translateY(-50%) rotate(180deg);
 }
