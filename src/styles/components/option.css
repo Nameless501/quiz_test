@@ -1,46 +1,46 @@
 .option {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
 }
 
 .option__label {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .option__label:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .option__input {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 1px solid var(--color_grey_stroke);
-    border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color_grey_stroke);
+  border-radius: 4px;
 }
 
 .option__input:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .option__input:checked {
-    border: 0;
-    background-color: var(--color_black);
-    background-image: url('../../images/check-mark.svg');
-    background-position: center;
-    background-size: 14px 14px;
-    background-repeat: no-repeat;
+  border: 0;
+  background-color: var(--color_black);
+  background-image: url('../../images/check-mark.svg');
+  background-position: center;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
 }

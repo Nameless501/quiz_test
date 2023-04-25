@@ -1,5 +1,7 @@
 export const formElement = document.querySelector(`[data-element='form']`);
 
+export const successMessageElement = document.querySelector(`[data-element='success-message']`);
+
 export const controlButtonsElement = document.querySelector(`[data-element='control-buttons']`);
 
 export const buttonNextElement = document.querySelector(`[data-element='button-next']`);
@@ -35,5 +37,9 @@ export const selectValueSelector = `[data-role='select-value']`;
 export const submitButtonSelector = `[data-element='button-submit']`;
 
 export const initialFormValue = { direction: 'any', city: 'any' };
+
+export const formHideSelector = 'quiz-form_hide';
+
+export const messageVisibleSelector = 'success-message_visible';
 
 export const apiBaseUrl = 'https://jsonplaceholder.typicode.com';

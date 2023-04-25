@@ -31,16 +31,27 @@
             </p>
           </div>
 
-          <div class="quiz-section__decoration" >
-            
+          <div class="quiz-section__decoration">
+
           </div>
 
-          <!-- right column (quiz) -->
+          <!-- right column (quiz and success message) -->
+
+          <div class="success-message quiz-section__message" data-element="success-message">
+            <span class="success-message__icon"></span>
+            <div class="success-message__message">
+              <h2 class="success-message__message-title">
+                Отлично, спасибо!
+              </h2>
+              <p class="success-message__message-text">
+                Мы отправили подборку вам на почту.
+                Если подборка не приходит — проверьте спам, возможно, она попала туда.
+              </p>
+            </div>
+          </div>
 
           <form class="quiz-form quiz-section__form" data-element="form">
             <fieldset class="quiz-form__fieldset">
-
-              <!-- current question and step -->
 
               <legend class="quiz-form__legend">
                 <span data-element="question">
@@ -57,8 +68,6 @@
               </div>
 
             </fieldset>
-
-            <!-- form buttons -->
 
             <div class="quiz-form__buttons" data-element="control-buttons">
               <button type="button" class="quiz-form__button form-button form-button_type_prev"
@@ -91,9 +100,10 @@
 
         <!-- submit form template -->
 
-        <template data-element="submit-template" >
+        <template data-element="submit-template">
           <div class="submit-form" data-role="container">
-            <button type="submit" class="submit-form__button form-button form-button_type_submit" data-element="button-submit" >
+            <button type="submit" class="submit-form__button form-button form-button_type_submit"
+              data-element="button-submit">
               Получить подборку
             </button>
             <p class="submit-form__disclaimer">

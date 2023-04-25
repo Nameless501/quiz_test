@@ -1,71 +1,71 @@
 .form-button {
-    padding: 0;
-    box-sizing: border-box;
-    background-color: transparent;
-    border: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .form-button_type_prev {
-    border: 1px solid var(--color_grey_stroke);
-    width: 108px;
-    height: 44px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+  border: 1px solid var(--color_grey_stroke);
+  width: 108px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 .form-button_type_next {
-    width: 108px;
-    height: 44px;
-    border-radius: 12px;
-    background-color: var(--color_black);
-    color: var(--color_white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+  width: 108px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: var(--color_black);
+  color: var(--color_white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 .form-button_type_submit {
-    padding: 18px 0;
-    background-color: var(--color_black);
-    color: var(--color_white);
-    width: 100%;
-    border-radius: 16px;
+  padding: 18px 0;
+  background-color: var(--color_black);
+  color: var(--color_white);
+  width: 100%;
+  border-radius: 16px;
 }
 
 .form-button__icon {
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 16px;
-    height: 16px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 80% 80%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
 }
 
 .form-button__icon_type_prev {
-    background-image: url('../../images/arrow_black.svg');
+  background-image: url('../../images/arrow_black.svg');
 }
 
 .form-button__icon_type_next {
-    background-image: url('../../images/arrow_white.svg');
+  background-image: url('../../images/arrow_white.svg');
 }
 
 .form-button_disabled {
-    opacity: .5;
+  opacity: .5;
 }
 
 .form-button_disabled:hover {
-    cursor: auto;
+  cursor: auto;
 }
