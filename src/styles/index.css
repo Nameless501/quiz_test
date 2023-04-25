@@ -1,0 +1,37 @@
+/* base */
+
+@import './base/normalize.css';
+
+@import './base/fonts.css';
+
+@import './base/variables.css';
+
+@import './base/window.css';
+
+/* pages */
+
+@import './pages/main.css';
+
+/* layout */
+
+@import './layout/content.css';
+
+@import './layout/quiz-section.css';
+
+/* components */
+
+@import './components/quiz-info.css';
+
+@import './components/quiz-form.css';
+
+@import './components/form-button.css';
+
+@import './components/select.css';
+
+@import './components/option.css';
+
+@import './components/radio-button.css';
+
+@import './components/submit-form.css';
+
+@import './components/text-input.css';

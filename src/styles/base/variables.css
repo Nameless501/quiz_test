@@ -1,0 +1,16 @@
+:root {
+
+    /* colors variables */
+
+    --color_white: #FFF;
+    --color_black: #383838;
+    --color_light-green: #CAFFA0;
+    --color_light-green_gradient: #CAFFA0;
+    --color_grey_stroke: #D8D8D8;
+    --color_grey_fill: #F5F5F5;
+    --color_grey_text: #9B9B9B;
+
+    /* font variables */
+
+    --font_family: 'Onest', Arial, sans-serif;
+}

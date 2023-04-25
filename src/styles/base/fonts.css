@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Onest';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../fonts/onest_regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Onest';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../fonts/onest_medium.woff') format("woff");
+}
